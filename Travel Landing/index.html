@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel Landing Page</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Travel</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="explore.mp4" muted loop autoplay type="mp4" ></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>Never Stop</h2>
+            <h3>Exploring The World</h3>
+            <p>What a fantastic year right. All of us should spare time to explore the world. Lots of things are waiting for us to be discovered. Id esse consectetur voluptatem tempora repellendus laborum consequatur accusantium quas reprehenderit omnis nostrum sequi voluptates dolore a obcaecati, corporis, fuga, dolorem quaerat.
+            Molestiaoris blanditiis ipsum ea error corrupti ad tempora, dolor reiciendis architecto accusamus! Culpa sint aliquam dolorum architecto.
+            Ips.Officiis cum repellendus voluptates ipsum, rem optio consequatur nostrum dolore molestias aliquam maxime expedita fugiat ea esse. Atque eaque, ea architecto natus repudiandae. Just think about it. And take an action to make your dream come true.        </p>
+            <a href="#">Explore</a>
+        </div>
+
+        <ul class="social">
+            <li><a href="#"><img src="facebook.png" alt="" width="50" ></a></li>
+            <li><a href="#"><img src="twitter.png" alt="" width="45"></a></li>
+            <li><a href="#"><img src="instagram.png" alt="" width="40"></a></li>
+        </ul>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <script>
+            const menuToggle = document.querySelector('.toggle')
+            const showcase = document.querySelector('.showcase')
+
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active')
+                showcase.classList.toggle('active')
+            })
+    </script>
+
+</body>
+</html>
