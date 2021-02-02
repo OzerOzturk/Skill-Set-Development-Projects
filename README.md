@@ -3,4 +3,4 @@ The purpose of this repo is to share projects I have built to improve my skill s
 
 After completing the project, I will state the relevant pages here. 👨‍💻
 
-- [Travel Landing](https://thirsty-wescoff-c7dd8c.netlify.app/) 
+- [Travel Landing](https://exploringtheworld.netlify.app/) 
