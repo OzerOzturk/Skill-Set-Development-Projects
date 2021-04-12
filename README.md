@@ -13,4 +13,5 @@ After completing the project, I will state the relevant pages here. 👨‍💻
 
 - [Creative Agency Website](https://creativeagencysite.netlify.app/) (Live Demo) 
 
+- [Music Player](https://ozerozturk.github.io/Skill-Set-Development-Projects/Music-Player/index.html) (Live Demo) 
 
